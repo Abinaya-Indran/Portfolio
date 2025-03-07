@@ -45,7 +45,7 @@ export default function HeroSection() {
       <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/10 rounded-full filter blur-3xl"></div>
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-primary/20 rounded-full filter blur-3xl"></div>
 
-      <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center z-10">
+      <div className="container mx-auto p-4 flex flex-col lg:flex-row justify-between items-center z-10">
         <div className=" relative z-10">
           <div className="flex flex-col items-center lg:items-start">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
@@ -55,7 +55,7 @@ export default function HeroSection() {
               <span className="text-primary">{displayText}</span>
               <span className="animate-pulse">|</span>
             </h2>
-            <p className="text-lg md:text-xl max-w-2xl mb-10 text-muted-foreground">
+            <p className="text-lg text-center xl:text-start md:text-xl max-w-2xl mb-10 text-muted-foreground">
               I build beautiful, responsive, and user-friendly web applications
               with modern technologies. Let's bring your ideas to life!
             </p>
@@ -66,7 +66,7 @@ export default function HeroSection() {
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Button>
               </Link>
-              <Link href="https://drive.google.com/file/d/1uY0_R66V7ZlDf-3SkIcaCNsbTlkiAUOl/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <Link href="https://drive.google.com/file/d/1HmKLT7SB4V1dlxVBpXdvDYjwOVtfYvsf/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="outline" className="group">
                   View My CV
                   <Download className="ml-2 h-4 w-4 transition-transform group-hover:translate-y-1" />
@@ -76,10 +76,10 @@ export default function HeroSection() {
           </div>
         </div>
 
-        <div className="relative w-1/2 mt-28 lg:mt-0 h-[20rem] lg:h-[35rem] flex items-center justify-center z-10">
-          <div className="absolute inset-0 h-full w-[26rem] mx-auto rounded-full bg-gradient-to-r from-purple-500 to-pink-500 blur-3xl"></div>
-          <div className="absolute inset-0 h-full w-[26rem] mx-auto rounded-3xl bg-gradient-to-r from-purple-500 to-pink-500 rotate-12"></div>
-          <div className="absolute inset-0 h-full w-[26rem] mx-auto rounded-3xl overflow-hidden">
+        <div className="relative w-full xl:w-1/2 mt-28 lg:mt-0 h-[25rem] lg:h-[35rem] flex items-center justify-center z-10">
+          <div className="absolute inset-0 h-full w-[19rem] xl:w-[26rem] mx-auto rounded-full bg-gradient-to-r from-purple-500 to-pink-500 blur-3xl"></div>
+          <div className="absolute inset-0 h-full w-[19rem] xl:w-[26rem] mx-auto rounded-xl xl:rounded-3xl bg-gradient-to-r from-purple-500 to-pink-500 rotate-12"></div>
+          <div className="absolute inset-0 h-full w-[19rem] xl:w-[26rem] mx-auto rounded-xl xl:rounded-3xl overflow-hidden">
             <Image
               src="/Hero.jpg"
               alt="Abinaya"
@@ -88,8 +88,6 @@ export default function HeroSection() {
             />
           </div>
         </div>
-
-
       </div>
     </section>
   );

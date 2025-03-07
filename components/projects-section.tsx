@@ -29,7 +29,7 @@ export default function ProjectsSection() {
       title: "Elito",
       description: "An online marketplace for buying and selling cakes with user authentication, role-based dashboards, secure Stripe payments, and product management.",
       image: "/Elito.png",
-      tags: [" HTML5","CSS3","JavaScript","React", "Next.js", "Node.js", "MongoDB", "Stripe", "Cloudinary"],
+      tags: ["TypeScript","React", "Next.js", "Node.js", "MongoDB", "Stripe", "Cloudinary"],
       demoUrl: "https://elito-cakes.vercel.app/",
       githubUrl: "#",
       category: "fullstack"
@@ -49,7 +49,7 @@ export default function ProjectsSection() {
       title: "Coffee Website",
       description: "A modern, responsive coffee shop website with engaging UI, product showcases, and interactive animations for a seamless browsing experience.",
       image: "/Coffee.png",
-      tags: ["HTML5", "CSS3"],
+      tags: ["HTML5", "CSS3", "JavaScript"],
       demoUrl: "https://abinaya-indran.github.io/Assignment07_Abinaya/",
       githubUrl: "#",
       category: "frontend"
