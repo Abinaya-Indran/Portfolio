@@ -66,7 +66,7 @@ export default function HeroSection() {
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Button>
               </Link>
-              <Link href="https://drive.google.com/file/d/1HmKLT7SB4V1dlxVBpXdvDYjwOVtfYvsf/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <Link href="https://drive.google.com/file/d/1JxjLu9oZeg6icaje9NIXx_6Uvm5xPW3p/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="outline" className="group">
                   View My CV
                   <Download className="ml-2 h-4 w-4 transition-transform group-hover:translate-y-1" />
