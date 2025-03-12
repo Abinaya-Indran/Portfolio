@@ -46,12 +46,12 @@ export default function Navbar() {
               Contact
             </Link>
             <div className="flex items-center space-x-3">
-              <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <Link href="https://github.com/Abinaya-Indran" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon" className="rounded-full">
                   <Github className="h-5 w-5" />
                 </Button>
               </Link>
-              <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <Link href="https://www.linkedin.com/in/abinaya-indran-4a3075326/" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon" className="rounded-full">
                   <Linkedin className="h-5 w-5" />
                 </Button>
@@ -100,12 +100,12 @@ export default function Navbar() {
               Contact
             </Link>
             <div className="flex items-center space-x-3 px-3 py-2">
-              <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <Link href="https://github.com/Abinaya-Indran" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon" className="rounded-full">
                   <Github className="h-5 w-5" />
                 </Button>
               </Link>
-              <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <Link href="https://www.linkedin.com/in/abinaya-indran-4a3075326/" target="_blank" rel="noopener noreferrer">
                 <Button variant="ghost" size="icon" className="rounded-full">
                   <Linkedin className="h-5 w-5" />
                 </Button>
